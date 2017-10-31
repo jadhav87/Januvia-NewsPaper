@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    UIImagePickerController *imagePicker;
+}
+@property (weak, nonatomic) IBOutlet UIImageView *mergeImg;
+- (IBAction)TakePicture:(id)sender;
 @end
 

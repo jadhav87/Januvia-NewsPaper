@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1DDDF31F86581E000067A9 /* Januvia_Newspaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DDDF21F86581E000067A9 /* Januvia_Newspaper.jpg */; };
+		1D1DDDF51F865824000067A9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1DDDF41F865824000067A9 /* icon.png */; };
+		1D1E4A501F712541009780A1 /* web-user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E4A4F1F712541009780A1 /* web-user.jpg */; };
 		1D37883E1F6A87450074FF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D37883D1F6A87450074FF10 /* main.m */; };
 		1D3788411F6A87450074FF10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3788401F6A87450074FF10 /* AppDelegate.m */; };
 		1D3788441F6A87450074FF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3788431F6A87450074FF10 /* ViewController.m */; };
@@ -15,6 +18,9 @@
 		1D37884C1F6A87450074FF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D37884A1F6A87450074FF10 /* LaunchScreen.storyboard */; };
 		1D3788571F6A87450074FF10 /* Januvia_NewsPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3788561F6A87450074FF10 /* Januvia_NewsPaperTests.m */; };
 		1D3788621F6A87450074FF10 /* Januvia_NewsPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3788611F6A87450074FF10 /* Januvia_NewsPaperUITests.m */; };
+		1D37887E1F6A88950074FF10 /* cam_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3788761F6A88950074FF10 /* cam_blue.png */; };
+		1D7AF1071F6BD18C008028DC /* newspaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D7AF1061F6BD18C008028DC /* newspaper.jpg */; };
+		1D8687151F6F9CFE001CA9A9 /* Januvia_Newspaper_old.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D8687141F6F9CFE001CA9A9 /* Januvia_Newspaper_old.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D1DDDF21F86581E000067A9 /* Januvia_Newspaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Januvia_Newspaper.jpg; sourceTree = "<group>"; };
+		1D1DDDF41F865824000067A9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		1D1E4A4F1F712541009780A1 /* web-user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "web-user.jpg"; sourceTree = "<group>"; };
 		1D3788391F6A87450074FF10 /* Januvia NewsPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Januvia NewsPaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D37883D1F6A87450074FF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D37883F1F6A87450074FF10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		1D37885D1F6A87450074FF10 /* Januvia NewsPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Januvia NewsPaperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3788611F6A87450074FF10 /* Januvia_NewsPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Januvia_NewsPaperUITests.m; sourceTree = "<group>"; };
 		1D3788631F6A87450074FF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3788761F6A88950074FF10 /* cam_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam_blue.png; sourceTree = "<group>"; };
+		1D7AF1061F6BD18C008028DC /* newspaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newspaper.jpg; sourceTree = "<group>"; };
+		1D8687141F6F9CFE001CA9A9 /* Januvia_Newspaper_old.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Januvia_Newspaper_old.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		1D37883B1F6A87450074FF10 /* Januvia NewsPaper */ = {
 			isa = PBXGroup;
 			children = (
+				1D3788711F6A88950074FF10 /* images */,
 				1D37883F1F6A87450074FF10 /* AppDelegate.h */,
 				1D3788401F6A87450074FF10 /* AppDelegate.m */,
 				1D3788421F6A87450074FF10 /* ViewController.h */,
@@ -138,6 +151,19 @@
 				1D3788631F6A87450074FF10 /* Info.plist */,
 			);
 			path = "Januvia NewsPaperUITests";
+			sourceTree = "<group>";
+		};
+		1D3788711F6A88950074FF10 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D1DDDF41F865824000067A9 /* icon.png */,
+				1D1DDDF21F86581E000067A9 /* Januvia_Newspaper.jpg */,
+				1D1E4A4F1F712541009780A1 /* web-user.jpg */,
+				1D8687141F6F9CFE001CA9A9 /* Januvia_Newspaper_old.jpg */,
+				1D7AF1061F6BD18C008028DC /* newspaper.jpg */,
+				1D3788761F6A88950074FF10 /* cam_blue.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +277,13 @@
 			files = (
 				1D37884C1F6A87450074FF10 /* LaunchScreen.storyboard in Resources */,
 				1D3788491F6A87450074FF10 /* Assets.xcassets in Resources */,
+				1D1DDDF51F865824000067A9 /* icon.png in Resources */,
+				1D1E4A501F712541009780A1 /* web-user.jpg in Resources */,
+				1D7AF1071F6BD18C008028DC /* newspaper.jpg in Resources */,
+				1D8687151F6F9CFE001CA9A9 /* Januvia_Newspaper_old.jpg in Resources */,
 				1D3788471F6A87450074FF10 /* Main.storyboard in Resources */,
+				1D1DDDF31F86581E000067A9 /* Januvia_Newspaper.jpg in Resources */,
+				1D37887E1F6A88950074FF10 /* cam_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MDD58JY298;
 				INFOPLIST_FILE = "Januvia NewsPaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artiligence.Januvia-NewsPaper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MDD58JY298;
 				INFOPLIST_FILE = "Januvia NewsPaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artiligence.Januvia-NewsPaper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +552,7 @@
 				1D3788681F6A87450074FF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3788691F6A87450074FF10 /* Build configuration list for PBXNativeTarget "Januvia NewsPaperTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +561,7 @@
 				1D37886B1F6A87450074FF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D37886C1F6A87450074FF10 /* Build configuration list for PBXNativeTarget "Januvia NewsPaperUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +570,7 @@
 				1D37886E1F6A87450074FF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
